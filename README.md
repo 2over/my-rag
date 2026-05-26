@@ -2,6 +2,11 @@
 
 这是一个基于 Streamlit + LangChain + Chroma + MySQL 的本地知识库问答项目。项目支持上传 PDF、Word、TXT 文档，将文档切分为父子 chunk 后写入向量库，并通过大模型完成普通对话和基于文档的 RAG 问答。
 
+## 项目演示
+
+<img width="2463" height="1260" alt="image" src="https://github.com/user-attachments/assets/16dd85fa-6467-438b-ac68-89f595d098da" />
+
+
 ## 技术栈
 
 ### 前端界面
@@ -109,6 +114,4 @@ streamlit run app.py
 
 注意：`.env.example` 只是模板，程序实际读取的是 `.env`。
 
-## 项目演示
 
-<img width="2463" height="1260" alt="image" src="https://github.com/user-attachments/assets/16dd85fa-6467-438b-ac68-89f595d098da" />
